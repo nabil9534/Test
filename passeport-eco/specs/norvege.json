@@ -10,7 +10,8 @@
       "date": "30.09.2026",
       "hook": "Chaque habitant est assis sur <em>une fortune</em>.",
       "vo": "Chaque Norvégien est assis sur une fortune… à laquelle il n'a pas le droit de toucher.",
-      "minDur": 3800
+      "minDur": 3800,
+      "dur": 5140
     },
     {
       "type": "count",
@@ -20,7 +21,8 @@
       "countDur": 1700,
       "unit": "PAR HABITANT, SI ON PARTAGEAIT LE FONDS",
       "hook": "Et personne ne peut le dépenser.",
-      "vo": "370 000 euros par habitant. Mais d'où vient cet argent ?"
+      "vo": "370 000 euros par habitant. Mais d'où vient cet argent ?",
+      "dur": 4280
     },
     {
       "type": "line",
@@ -30,7 +32,8 @@
       "big": "PÉTROLE",
       "color": "amber",
       "cap": "Après des années de forages décevants, un des plus grands gisements de la mer du Nord.",
-      "vo": "1969. Les pétroliers veulent abandonner la mer du Nord. Juste avant Noël, un dernier forage touche le jackpot."
+      "vo": "1969. Les pétroliers veulent abandonner la mer du Nord. Juste avant Noël, un dernier forage touche le jackpot.",
+      "dur": 7279
     },
     {
       "type": "big",
@@ -39,7 +42,8 @@
       "mid": "22 014 Md",
       "midSmall": "DE COURONNES DANS LE FONDS SOUVERAIN · 30 SEPT. 2026",
       "cap": "Au lieu de flamber l'argent du pétrole, la Norvège le place. Premier versement : <b>1996</b>.",
-      "vo": "Au lieu de tout dépenser, la Norvège place l'argent du pétrole dans un fonds. Aujourd'hui : 22 000 milliards de couronnes."
+      "vo": "Au lieu de tout dépenser, la Norvège place l'argent du pétrole dans un fonds. Aujourd'hui : 22 000 milliards de couronnes.",
+      "dur": 6810
     },
     {
       "type": "big",
@@ -51,7 +55,8 @@
       "midSmall": "DE TOUTES LES ACTIONS COTÉES DE LA PLANÈTE",
       "capAt": 3200,
       "cap": "Apple, Nestlé, LVMH… le fonds en possède un morceau.",
-      "vo": "Ce fonds possède 1,5 % de toutes les actions cotées du monde. Un bout d'Apple, de Nestlé, de LVMH…"
+      "vo": "Ce fonds possède 1,5 % de toutes les actions cotées du monde. Un bout d'Apple, de Nestlé, de LVMH…",
+      "dur": 6789
     },
     {
       "type": "bars",
@@ -76,16 +81,18 @@
       "bigSmall": "restent pour plus tard",
       "capAt": 3600,
       "cap": "Le reste est gardé pour <b>les générations futures</b>.",
-      "vo": "Mais l'État ne peut utiliser qu'environ 3 % par an. Le reste, c'est pour les générations futures."
+      "vo": "Mais l'État ne peut utiliser qu'environ 3 % par an. Le reste, c'est pour les générations futures.",
+      "dur": 5199
     },
     {
       "type": "myth",
       "kick": "IDÉE REÇUE",
       "myth": "« Chaque Norvégien a 370 000 € sur son compte. »",
-      "stampAt": 1500,
+      "stampAt": 700,
       "cap": "C'est une division, pas un chèque. Le fonds aide à payer <b>écoles, hôpitaux et routes</b>, sans vider le coffre.",
-      "capAt": 2500,
-      "vo": "Donc non, personne n'a reçu de chèque. Le fonds aide à payer écoles et hôpitaux, sans vider le coffre."
+      "capAt": 2000,
+      "vo": "Donc non, personne n'a reçu de chèque. Le fonds aide à payer écoles et hôpitaux, sans vider le coffre.",
+      "dur": 5530
     },
     {
       "type": "end",
@@ -93,9 +100,10 @@
       "end": "Ils ont trouvé du pétrole.<br><em>Ils ont surtout su attendre.</em>",
       "next": "ARGENTINE",
       "nextHint": "Le pays qui a rayé 13 zéros de sa monnaie.",
-      "nextAt": 2400,
+      "nextAt": 3400,
       "src": "Sources : NBIM (valeur au 30/09/2026, ≈ 1,5 % des actions cotées) · SSB (population) · taux EUR/NOK ≈ 10,58 (nov. 2026) · ministère des Finances norvégien (règle budgétaire)",
-      "vo": "Ils ont trouvé du pétrole… mais surtout, ils ont su attendre. Prochaine escale : le pays qui a rayé 13 zéros de sa monnaie. Abonne-toi !"
+      "vo": "Ils ont trouvé du pétrole… mais surtout, ils ont su attendre. Prochaine escale : le pays qui a rayé 13 zéros de sa monnaie. Abonne-toi !",
+      "dur": 9660
     }
   ]
 }

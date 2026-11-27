@@ -156,6 +156,12 @@ function $(id){return document.getElementById(id)}
 });
 
 // moteur de lecture
+[].forEach.call(document.querySelectorAll(".sc"),function(sc){
+  var dur=+sc.dataset.dur,els=sc.querySelectorAll("[data-t]"),mx=0;
+  [].forEach.call(els,function(e){mx=Math.max(mx,+e.dataset.t)});
+  var room=dur-1500;if(mx>room&&mx>0){var k=Math.max(.4,room/mx);
+    [].forEach.call(els,function(e){e.dataset.t=String(Math.round(+e.dataset.t*k))})}
+});
 var scenes=[].slice.call(document.querySelectorAll(".sc")).map(function(s){return {el:s,start:+s.dataset.start,dur:+s.dataset.dur}});
 var TOTAL=scenes.reduce(function(m,s){return Math.max(m,s.start+s.dur)},0);
 function absT(el){var sc=el.closest(".sc"),base=sc?+sc.dataset.start:0;

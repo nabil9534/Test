@@ -61,7 +61,7 @@ def scene_html(sc, flag):
     elif t == "timeline":
         out.append('<div class="tl">')
         for i, it in enumerate(sc["items"]):
-            out.append(f'<div data-t="{300+i*1300}" data-sfx="hit"><div class="y">{it["y"]}</div><p>{it["t"]}</p></div>')
+            out.append(f'<div data-t="{it.get("at", 300+i*1300)}" data-sfx="hit"><div class="y">{it["y"]}</div><p>{it["t"]}</p></div>')
         out.append('</div>')
     elif t == "myth":
         out.append(f'<div class="myth" data-t="100">{sc["myth"]}</div>')

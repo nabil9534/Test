@@ -10,7 +10,8 @@
       "date": "20.11.2026",
       "hook": "Tu penses qu'elle est riche <em>grâce au pétrole</em> ?",
       "vo": "Tout le monde pense que Dubaï est riche grâce au pétrole. Grosse erreur.",
-      "minDur": 3800
+      "minDur": 3800,
+      "dur": 4080
     },
     {
       "type": "count",
@@ -21,7 +22,8 @@
       "countDur": 1200,
       "unit": "LA PART DU PÉTROLE ET DES MINES DANS SON ÉCONOMIE",
       "hook": "Presque <s>rien</s>.",
-      "vo": "Le pétrole et les mines : à peine 1 % de son économie. Alors d'où vient l'argent ?"
+      "vo": "Le pétrole et les mines : à peine 1 % de son économie. Alors d'où vient l'argent ?",
+      "dur": 6010
     },
     {
       "type": "line",
@@ -31,7 +33,8 @@
       "big": "COMMERCE",
       "color": "amber",
       "cap": "Dubaï trouve bien moins de pétrole qu'Abou Dabi. Alors elle mise tout sur <b>le commerce</b>.",
-      "vo": "En 1966, Dubaï trouve un peu de pétrole, bien moins qu'Abou Dabi. Alors elle fait un pari : devenir le carrefour du monde."
+      "vo": "En 1966, Dubaï trouve un peu de pétrole, bien moins qu'Abou Dabi. Alors elle fait un pari : devenir le carrefour du monde.",
+      "dur": 9239
     },
     {
       "type": "big",
@@ -41,7 +44,8 @@
       "midSmall": "DE PASSAGERS À DUBAÏ EN 2025 · N°1 MONDIAL À L'INTERNATIONAL",
       "cap": "Aucun aéroport au monde n'accueille autant de voyageurs internationaux.",
       "capAt": 3200,
-      "vo": "Résultat : 95 millions de passagers en 2025. Aucun aéroport n'accueille autant de voyageurs internationaux."
+      "vo": "Résultat : 95 millions de passagers en 2025. Aucun aéroport n'accueille autant de voyageurs internationaux.",
+      "dur": 7350
     },
     {
       "type": "bars",
@@ -65,7 +69,8 @@
       "bigSmall": "plus de 4 touristes par habitant",
       "capAt": 3600,
       "cap": "Hôtels, centres commerciaux, immobilier : <b>le vrai moteur</b>.",
-      "vo": "Et près de 20 millions de touristes par an : plus de quatre fois sa population."
+      "vo": "Et près de 20 millions de touristes par an : plus de quatre fois sa population.",
+      "dur": 4330
     },
     {
       "type": "timeline",
@@ -73,30 +78,35 @@
       "items": [
         {
           "y": "NOV. 2009",
-          "t": "Crise : le géant public Dubai World demande un délai sur <b>26 Md$</b> de dettes."
+          "t": "Crise : le géant public Dubai World demande un délai sur <b>26 Md$</b> de dettes.",
+          "at": 200
         },
         {
           "y": "DÉC. 2009",
-          "t": "Abou Dabi, la voisine riche en pétrole, vient <b>à la rescousse</b>."
+          "t": "Abou Dabi, la voisine riche en pétrole, vient <b>à la rescousse</b>.",
+          "at": 2300
         },
         {
           "y": "JANV. 2010",
-          "t": "La « Burj Dubaï » est inaugurée… sous le nom de <b>Burj Khalifa</b>, le dirigeant d'Abou Dabi."
+          "t": "La « Burj Dubaï » est inaugurée… sous le nom de <b>Burj Khalifa</b>, le dirigeant d'Abou Dabi.",
+          "at": 4700
         }
       ],
       "cap": "La plus haute tour du monde porte le nom de son sauveur.",
-      "capAt": 4300,
+      "capAt": 7000,
       "vo": "Mais en 2009, la bulle éclate. C'est Abou Dabi qui la sauve. Et la plus haute tour du monde prend le nom de son sauveur : Burj Khalifa.",
-      "minDur": 7600
+      "minDur": 7600,
+      "dur": 8840
     },
     {
       "type": "myth",
       "kick": "IDÉE REÇUE",
       "myth": "« Dubaï, c'est un pays. »",
-      "stampAt": 1200,
+      "stampAt": 700,
       "cap": "C'est l'un des <b>7 émirats</b> des Émirats arabes unis. La capitale du pays, c'est <b>Abou Dabi</b>.",
-      "capAt": 2200,
-      "vo": "Et non, Dubaï n'est pas un pays : c'est un des sept émirats des Émirats arabes unis."
+      "capAt": 2000,
+      "vo": "Et non, Dubaï n'est pas un pays : c'est un des sept émirats des Émirats arabes unis.",
+      "dur": 5030
     },
     {
       "type": "end",
@@ -104,9 +114,10 @@
       "end": "Pas une ville pétrolière.<br><em>Une ville carrefour.</em>",
       "next": "JAPON",
       "nextHint": "Le pays riche le plus endetté du monde.",
-      "nextAt": 2400,
+      "nextAt": 1500,
       "src": "Sources : Dubai Statistics Center (PIB T2 2025) · Dubai Airports (2025) · DET Dubaï (touristes 2025) · Digital Dubai (population) · presse 2009–2010 (Dubai World, Burj Khalifa)",
-      "vo": "Pas une ville pétrolière : une ville carrefour. Prochaine escale : le Japon, le pays riche le plus endetté du monde. Abonne-toi !"
+      "vo": "Pas une ville pétrolière : une ville carrefour. Prochaine escale : le Japon, le pays riche le plus endetté du monde. Abonne-toi !",
+      "dur": 9129
     }
   ]
 }
