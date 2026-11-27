@@ -4,41 +4,117 @@
   "key": 1,
   "ticker": "PIB/HAB. 2025 <b>≈ 117 000 $</b> (FMI) · SALAIRE MÉDIAN <b>7 024 CHF/MOIS</b> (2024) · FINANCE <b>≈ 9 % DU PIB</b> · MONTRES <b>3,2 % DES EXPORTS</b> · SECRET BANCAIRE <em>1934 → 2018</em> ·",
   "scenes": [
-    {"type": "stamp", "num": 6, "country": "SUISSE", "date": "27.11.2026",
-     "hook": "Ni mer, ni pétrole, ni mines. <em>Et pourtant…</em>",
-     "tag": "intrigued",
-     "vo": "Pas de mer, pas de pétrole, pas de mines. Et pourtant, c'est un des pays les plus riches du monde.", "minDur": 4400},
-    {"type": "count", "kick": "LE CHIFFRE", "to": 117000, "prefix": "≈ ", "suffix": " $", "countDur": 1600,
-     "unit": "PIB PAR HABITANT EN 2025 · FMI",
-     "hook": "Un des plus élevés <em>de la planète</em>.",
-     "tag": "excited",
-     "vo": "Environ 117 000 dollars de richesse par habitant. Alors, c'est grâce aux banques ?"},
-    {"type": "myth", "kick": "IDÉE REÇUE", "myth": "« La Suisse est riche grâce à ses banques. »", "stamp": "PAS QUE", "stampAt": 1300,
-     "cap": "La finance pèse environ <b>9 % de l'économie</b>. Important, mais pas le moteur principal.", "capAt": 2400,
-     "tag": "mischievously",
-     "vo": "Pas seulement. La finance, c'est environ 9 % de l'économie. Important, mais ce n'est pas le vrai moteur."},
-    {"type": "bars", "kick": "LE VRAI CHAMPION", "h": "La <em>pharmacie</em>, pas les montres",
-     "rows": [{"label": "VACCINS, MÉDICAMENTS, CHIMIE", "value": "≈ 28 %", "w": 100, "amber": true},
-              {"label": "MONTRES-BRACELETS", "value": "3,2 %", "w": 11, "hot": true}],
-     "big": "3,2 %", "bigSmall": "des exportations pour les montres (hors or)", "capAt": 3600,
-     "cap": "Roche, Novartis : la Suisse soigne le monde entier.",
-     "tag": "excited",
-     "vo": "Le vrai champion, c'est la pharmacie : vaccins, médicaments, chimie. Les célèbres montres ? À peine 3 % des exportations."},
-    {"type": "timeline", "kick": "LA FIN D'UN MYTHE",
-     "items": [{"y": "1934", "t": "Une loi grave le <b>secret bancaire</b> dans le marbre."},
-               {"y": "2009", "t": "Sous la pression des États-Unis, UBS livre des <b>noms de clients</b>."},
-               {"y": "2018", "t": "Premiers échanges automatiques d'infos fiscales : <b>fini le secret</b> pour les étrangers."}],
-     "cap": "Le coffre-fort du monde a dû ouvrir ses portes.", "capAt": 4500,
-     "tag": "dramatically",
-     "vo": "Et le fameux secret bancaire ? Né en 1934. Fissuré en 2009, quand UBS livre des noms aux États-Unis. Et en 2018, fini : la Suisse partage les infos fiscales avec les autres pays.", "minDur": 8400},
-    {"type": "big", "kick": "LE SALAIRE", "h": "Des salaires <em>XXL</em>",
-     "mid": "7 024 CHF", "midSmall": "SALAIRE MÉDIAN BRUT PAR MOIS, TEMPS PLEIN · OFS 2024",
-     "cap": "Mais tout coûte plus cher : <b>loyers, assurance maladie, restaurants</b>.", "capAt": 3200,
-     "vo": "Résultat : un salaire médian de plus de 7 000 francs suisses par mois. Mais attention : loyers, assurance maladie, restaurants… tout coûte beaucoup plus cher."},
-    {"type": "end", "kick": "EN RÉSUMÉ", "end": "Pas de ressources.<br><em>Que du savoir-faire.</em>",
-     "next": "CHINE", "nextHint": "L'usine du monde… qui ne veut plus l'être.", "nextAt": 2300,
-     "src": "Sources : FMI (PIB/hab. 2025) · OFS (salaires 2024) · SIF / SECO (finance ≈ 9 % du PIB) · Crédit Agricole (structure des exportations) · AFC (échange automatique 2018)",
-     "tag": "warmly",
-     "vo": "Pas de ressources, que du savoir-faire. Prochaine escale : la Chine, l'usine du monde… qui ne veut plus l'être. Abonne-toi !"}
+    {
+      "type": "stamp",
+      "num": 6,
+      "country": "SUISSE",
+      "date": "27.11.2026",
+      "hook": "Ni mer, ni pétrole, ni mines. <em>Et pourtant…</em>",
+      "tag": "intrigued",
+      "vo": "Pas de mer, pas de pétrole, pas de mines. Et pourtant, c'est un des pays les plus riches du monde.",
+      "minDur": 4400,
+      "dur": 6560
+    },
+    {
+      "type": "count",
+      "kick": "LE CHIFFRE",
+      "to": 117000,
+      "prefix": "≈ ",
+      "suffix": " $",
+      "countDur": 1600,
+      "unit": "PIB PAR HABITANT EN 2025 · FMI",
+      "hook": "Un des plus élevés <em>de la planète</em>.",
+      "tag": "excited",
+      "vo": "Environ 117 000 dollars de richesse par habitant. Alors, c'est grâce aux banques ?",
+      "dur": 5415
+    },
+    {
+      "type": "myth",
+      "kick": "IDÉE REÇUE",
+      "myth": "« La Suisse est riche grâce à ses banques. »",
+      "stamp": "PAS QUE",
+      "stampAt": 400,
+      "cap": "La finance pèse environ <b>9 % de l'économie</b>. Important, mais pas le moteur principal.",
+      "capAt": 1600,
+      "tag": "mischievously",
+      "vo": "Pas seulement. La finance, c'est environ 9 % de l'économie. Important, mais ce n'est pas le vrai moteur.",
+      "dur": 7159
+    },
+    {
+      "type": "bars",
+      "kick": "LE VRAI CHAMPION",
+      "h": "La <em>pharmacie</em>, pas les montres",
+      "rows": [
+        {
+          "label": "VACCINS, MÉDICAMENTS, CHIMIE",
+          "value": "≈ 28 %",
+          "w": 100,
+          "amber": true
+        },
+        {
+          "label": "MONTRES-BRACELETS",
+          "value": "3,2 %",
+          "w": 11,
+          "hot": true
+        }
+      ],
+      "big": "3,2 %",
+      "bigSmall": "des exportations pour les montres (hors or)",
+      "capAt": 3600,
+      "cap": "Roche, Novartis : la Suisse soigne le monde entier.",
+      "tag": "excited",
+      "vo": "Le vrai champion, c'est la pharmacie : vaccins, médicaments, chimie. Les célèbres montres ? À peine 3 % des exportations.",
+      "dur": 8390
+    },
+    {
+      "type": "timeline",
+      "kick": "LA FIN D'UN MYTHE",
+      "items": [
+        {
+          "y": "1934",
+          "t": "Une loi grave le <b>secret bancaire</b> dans le marbre.",
+          "at": 2200
+        },
+        {
+          "y": "2009",
+          "t": "Sous la pression des États-Unis, UBS livre des <b>noms de clients</b>.",
+          "at": 4000
+        },
+        {
+          "y": "2018",
+          "t": "Premiers échanges automatiques d'infos fiscales : <b>fini le secret</b> pour les étrangers.",
+          "at": 7500
+        }
+      ],
+      "cap": "Le coffre-fort du monde a dû ouvrir ses portes.",
+      "capAt": 10000,
+      "tag": "dramatically",
+      "vo": "Et le fameux secret bancaire ? Né en 1934. Fissuré en 2009, quand UBS livre des noms aux États-Unis. Et en 2018, fini : la Suisse partage les infos fiscales avec les autres pays.",
+      "minDur": 8400,
+      "dur": 12649
+    },
+    {
+      "type": "big",
+      "kick": "LE SALAIRE",
+      "h": "Des salaires <em>XXL</em>",
+      "mid": "7 024 CHF",
+      "midSmall": "SALAIRE MÉDIAN BRUT PAR MOIS, TEMPS PLEIN · OFS 2024",
+      "cap": "Mais tout coûte plus cher : <b>loyers, assurance maladie, restaurants</b>.",
+      "capAt": 3200,
+      "vo": "Résultat : un salaire médian de plus de 7 000 francs suisses par mois. Mais attention : loyers, assurance maladie, restaurants… tout coûte beaucoup plus cher.",
+      "dur": 9585
+    },
+    {
+      "type": "end",
+      "kick": "EN RÉSUMÉ",
+      "end": "Pas de ressources.<br><em>Que du savoir-faire.</em>",
+      "next": "CHINE",
+      "nextHint": "L'usine du monde… qui ne veut plus l'être.",
+      "nextAt": 2300,
+      "src": "Sources : FMI (PIB/hab. 2025) · OFS (salaires 2024) · SIF / SECO (finance ≈ 9 % du PIB) · Crédit Agricole (structure des exportations) · AFC (échange automatique 2018)",
+      "tag": "warmly",
+      "vo": "Pas de ressources, que du savoir-faire. Prochaine escale : la Chine, l'usine du monde… qui ne veut plus l'être. Abonne-toi !",
+      "dur": 9299
+    }
   ]
 }

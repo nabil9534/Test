@@ -12,7 +12,8 @@
       "hook": "En 1960, ce pays était <em>plus pauvre que le Ghana</em>.",
       "tag": "intrigued",
       "vo": "En 1960, ce pays était plus pauvre que le Ghana. Aujourd'hui, il est sûrement dans ta poche.",
-      "minDur": 4600
+      "minDur": 4600,
+      "dur": 6930
     },
     {
       "type": "count",
@@ -23,7 +24,8 @@
       "countDur": 1400,
       "unit": "PIB PAR HABITANT EN 1960 · DOLLARS DE L'ÉPOQUE",
       "hook": "Un des pays les plus pauvres <s>du monde</s>.",
-      "vo": "158 dollars par habitant. Un des pays les plus pauvres de la planète."
+      "vo": "158 dollars par habitant. Un des pays les plus pauvres de la planète.",
+      "dur": 5285
     },
     {
       "type": "timeline",
@@ -31,22 +33,26 @@
       "items": [
         {
           "y": "1953",
-          "t": "Fin de la guerre de Corée : <b>un pays en ruines</b>, coupé en deux."
+          "t": "Fin de la guerre de Corée : <b>un pays en ruines</b>, coupé en deux.",
+          "at": 200
         },
         {
           "y": "ANNÉES 60",
-          "t": "L'État mise tout sur l'export et pousse des géants : <b>Samsung, Hyundai, LG</b>."
+          "t": "L'État mise tout sur l'export et pousse des géants : <b>Samsung, Hyundai, LG</b>.",
+          "at": 3200
         },
         {
           "y": "AUJOURD'HUI",
-          "t": "Puces, voitures, navires, écrans… et la <b>K-pop</b> en vitrine."
+          "t": "Puces, voitures, navires, écrans… et la <b>K-pop</b> en vitrine.",
+          "at": 6500
         }
       ],
       "cap": "En une seule vie, le pays passe des rizières aux <b>puces électroniques</b>.",
-      "capAt": 5200,
+      "capAt": 8000,
       "tag": "dramatically",
       "vo": "1953 : la guerre laisse le pays en ruines. Alors l'État mise tout sur l'export, et pousse des géants : Samsung, Hyundai, LG.",
-      "minDur": 7600
+      "minDur": 7600,
+      "dur": 9754
     },
     {
       "type": "bars",
@@ -72,7 +78,8 @@
       "capAt": 3600,
       "cap": "Ton téléphone, ton PC, les serveurs de l'IA : <b>il y a du coréen dedans</b>.",
       "tag": "excited",
-      "vo": "Record en 2025 : plus de 700 milliards de dollars d'exportations. Et un dollar sur quatre vient des puces électroniques."
+      "vo": "Record en 2025 : plus de 700 milliards de dollars d'exportations. Et un dollar sur quatre vient des puces électroniques.",
+      "dur": 7460
     },
     {
       "type": "big",
@@ -84,7 +91,8 @@
       "midSmall": "DES EXPORTATIONS 2025 FAITES PAR SEULEMENT 10 ENTREPRISES",
       "capAt": 3300,
       "cap": "Une force… et une <b>fragilité</b> : si un géant tousse, tout le pays s'enrhume.",
-      "vo": "Mais seulement dix entreprises font presque 40 % des exportations. Si un géant tousse, tout le pays s'enrhume."
+      "vo": "Mais seulement dix entreprises font presque 40 % des exportations. Si un géant tousse, tout le pays s'enrhume.",
+      "dur": 6655
     },
     {
       "type": "bars",
@@ -109,17 +117,19 @@
       "capAt": 3600,
       "cap": "Un des taux les plus bas du monde. <b>Qui va payer les retraites ?</b>",
       "tag": "dramatically",
-      "vo": "Le vrai danger : 0,8 enfant par femme. Un des taux les plus bas du monde. Qui paiera les retraites ?"
+      "vo": "Le vrai danger : 0,8 enfant par femme. Un des taux les plus bas du monde. Qui paiera les retraites ?",
+      "dur": 6549
     },
     {
       "type": "myth",
       "kick": "IDÉE REÇUE",
       "myth": "« La Corée est riche grâce à la K-pop. »",
-      "stampAt": 1500,
+      "stampAt": 600,
       "cap": "La K-pop, c'est la vitrine. Le moteur, ce sont <b>les puces, les voitures et les navires</b>.",
-      "capAt": 2500,
+      "capAt": 2000,
       "tag": "mischievously",
-      "vo": "Et non, ce n'est pas grâce à la K-pop. Le vrai moteur : les puces, les voitures, les navires."
+      "vo": "Et non, ce n'est pas grâce à la K-pop. Le vrai moteur : les puces, les voitures, les navires.",
+      "dur": 6210
     },
     {
       "type": "end",
@@ -127,10 +137,11 @@
       "end": "Des ruines à la tech.<br><em>Mais qui va en hériter ?</em>",
       "next": "SUISSE",
       "nextHint": "Ni mer, ni pétrole, ni mines… et pourtant.",
-      "nextAt": 2300,
+      "nextAt": 2500,
       "src": "Sources : Banque mondiale (PIB/hab. 1960) · ministère coréen du Commerce (exportations 2025) · Statistics Korea (fécondité 2025)",
       "tag": "warmly",
-      "vo": "Des ruines à la tech, en une seule vie. Prochaine escale : sans mer, sans pétrole, sans mines… et pourtant ultra-riche. Abonne-toi !"
+      "vo": "Des ruines à la tech, en une seule vie. Prochaine escale : sans mer, sans pétrole, sans mines… et pourtant ultra-riche. Abonne-toi !",
+      "dur": 10105
     }
   ]
 }

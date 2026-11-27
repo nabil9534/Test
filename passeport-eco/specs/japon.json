@@ -12,7 +12,8 @@
       "hook": "Il doit <em>deux fois</em> ce qu'il produit en un an.",
       "tag": "intrigued",
       "vo": "Ce pays doit deux fois ce qu'il produit en un an. Et pourtant, personne ne panique.",
-      "minDur": 4200
+      "minDur": 4200,
+      "dur": 5610
     },
     {
       "type": "count",
@@ -24,7 +25,8 @@
       "unit": "DETTE PUBLIQUE / PIB · FMI, OCT. 2026",
       "hook": "Le pays riche <s>le plus endetté</s> du monde.",
       "tag": "excited",
-      "vo": "Bienvenue au Japon : une dette d'environ 200 % de son PIB. Le record du monde riche."
+      "vo": "Bienvenue au Japon : une dette d'environ 200 % de son PIB. Le record du monde riche.",
+      "dur": 7179
     },
     {
       "type": "bars",
@@ -48,7 +50,8 @@
       "bigSmall": "la dette française, en proportion",
       "capAt": 3600,
       "cap": "Et on trouve déjà que la France est <b>très endettée</b>.",
-      "vo": "En France, on s'inquiète d'une dette à 119 %. Le Japon, c'est presque deux fois plus."
+      "vo": "En France, on s'inquiète d'une dette à 119 %. Le Japon, c'est presque deux fois plus.",
+      "dur": 6135
     },
     {
       "type": "big",
@@ -61,7 +64,8 @@
       "capAt": 3300,
       "cap": "Banques, assurances, retraites… et la <b>Banque du Japon</b>, qui en détient environ la moitié.",
       "tag": "mischievously",
-      "vo": "Le secret ? Le Japon se doit de l'argent à lui-même : 90 % de sa dette est détenue par des Japonais."
+      "vo": "Le secret ? Le Japon se doit de l'argent à lui-même : 90 % de sa dette est détenue par des Japonais.",
+      "dur": 6875
     },
     {
       "type": "line",
@@ -72,7 +76,8 @@
       "big": "≤ 0 %",
       "color": "amber",
       "cap": "Pendant 25 ans, l'argent ne coûtait presque rien. La dette pouvait grossir <b>sans douleur</b>.",
-      "vo": "Pendant 25 ans, les taux sont restés à zéro, et même négatifs. Emprunter ne coûtait presque rien."
+      "vo": "Pendant 25 ans, les taux sont restés à zéro, et même négatifs. Emprunter ne coûtait presque rien.",
+      "dur": 6635
     },
     {
       "type": "line",
@@ -84,17 +89,19 @@
       "color": "red",
       "cap": "Chaque hausse alourdit la facture des intérêts. <b>C'est LE risque</b> à surveiller.",
       "tag": "dramatically",
-      "vo": "Mais depuis 2024, les taux remontent. Et avec une dette pareille, chaque hausse fait gonfler la facture."
+      "vo": "Mais depuis 2024, les taux remontent. Et avec une dette pareille, chaque hausse fait gonfler la facture.",
+      "dur": 7089
     },
     {
       "type": "myth",
       "kick": "IDÉE REÇUE",
       "myth": "« Le Japon va faire faillite demain. »",
       "stamp": "PAS SI VITE",
-      "stampAt": 1300,
+      "stampAt": 1600,
       "cap": "Il emprunte dans <b>sa propre monnaie</b>, à ses propres épargnants. Mais sa population vieillit, et la marge se réduit.",
-      "capAt": 2400,
-      "vo": "Alors, faillite demain ? Pas si vite. Il emprunte dans sa propre monnaie, à ses propres épargnants. Mais sa population vieillit."
+      "capAt": 2800,
+      "vo": "Alors, faillite demain ? Pas si vite. Il emprunte dans sa propre monnaie, à ses propres épargnants. Mais sa population vieillit.",
+      "dur": 8130
     },
     {
       "type": "end",
@@ -102,10 +109,11 @@
       "end": "Une dette géante…<br><em>mais gardée en famille.</em>",
       "next": "CORÉE DU SUD",
       "nextHint": "Plus pauvre que le Ghana en 1960. Et aujourd'hui ?",
-      "nextAt": 2300,
+      "nextAt": 2400,
       "src": "Sources : FMI, World Economic Outlook (oct. 2026) et Article IV 2026 · Insee (dette T2 2026) · Banque du Japon (taux, oct. 2026)",
       "tag": "warmly",
-      "vo": "Une dette géante, mais gardée en famille. Prochaine escale : plus pauvre que le Ghana en 1960… et aujourd'hui géant de la tech. Abonne-toi !"
+      "vo": "Une dette géante, mais gardée en famille. Prochaine escale : plus pauvre que le Ghana en 1960… et aujourd'hui géant de la tech. Abonne-toi !",
+      "dur": 10845
     }
   ]
 }
