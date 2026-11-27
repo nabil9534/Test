@@ -28,7 +28,10 @@ body{display:flex;align-items:center;justify-content:center;overflow:hidden}
 .brand b{display:block;font:900 4.2cqw var(--num);letter-spacing:-.02em;color:var(--ink)}
 
 .sc{position:absolute;inset:0;opacity:0;pointer-events:none}
-.sc.on{opacity:1}
+.sc.on{opacity:1;animation:push var(--d,6s) linear both}
+@keyframes push{from{transform:scale(1)}to{transform:scale(1.045)}}
+[data-sfx="impact"].on,[data-sfx="final"].on{animation:punch .42s cubic-bezier(.2,.9,.3,1.4) both}
+@keyframes punch{0%{transform:scale(1.22);filter:brightness(1.8)}100%{transform:scale(1);filter:none}}
 .kick{position:absolute;left:7cqw;top:17%;font:600 3.4cqw var(--mono);color:var(--amber);letter-spacing:.08em}
 .h{position:absolute;left:7cqw;right:7cqw;top:20.5%;font-weight:900;font-size:8.4cqw;line-height:1.02;letter-spacing:-.03em;text-wrap:balance}
 .h em,.hook em,.end em{font-style:normal;color:var(--amber)} .h s,.hook s{text-decoration:none;color:var(--red)}
@@ -47,6 +50,7 @@ body{display:flex;align-items:center;justify-content:center;overflow:hidden}
 .pflag{width:24cqw;margin:0 auto 3cqw;border:.6cqw solid var(--ink);line-height:0}
 .pflag svg{width:100%;height:auto;display:block}
 .pname{font-weight:900;font-size:12.5cqw;letter-spacing:-.03em;line-height:1;color:var(--ink)}
+.pname.long{font-size:10cqw}
 .pmeta{font:600 3.2cqw var(--mono);letter-spacing:.12em;margin-top:2.4cqw}
 .hook{position:absolute;left:7cqw;right:7cqw;top:63%;text-align:center;font-weight:800;font-size:6.2cqw;line-height:1.15;text-wrap:balance}
 .hook.big{top:66%;font-size:7cqw}
@@ -68,7 +72,7 @@ body{display:flex;align-items:center;justify-content:center;overflow:hidden}
 .row.hot .fill{background:var(--red)} .row.amb .fill{background:var(--amber)}
 .pct{position:absolute;left:7cqw;right:7cqw;top:61%;font-weight:900;font-size:13cqw;letter-spacing:-.04em;color:var(--red)}
 .pct.amber{color:var(--amber)}
-.pct small{font:600 3.4cqw var(--mono);color:var(--mute);letter-spacing:0;margin-left:2cqw}
+.pct small{display:block;font:600 3.4cqw var(--mono);color:var(--mute);letter-spacing:0;margin-top:1cqw}
 
 /* 3. courbe */
 .chart{position:absolute;left:7cqw;right:7cqw;top:35%;height:30cqw}
@@ -107,6 +111,7 @@ body{display:flex;align-items:center;justify-content:center;overflow:hidden}
 .myth{position:absolute;left:7cqw;right:7cqw;top:30%;font-weight:800;font-size:7cqw;line-height:1.1;color:var(--mute);text-wrap:balance}
 .stamp{position:absolute;left:50%;top:52%;transform:translate(-50%,-50%) rotate(-8deg);font-weight:900;font-size:17cqw;color:var(--red);
   border:1.2cqw solid var(--red);padding:0 4cqw;letter-spacing:-.02em;white-space:nowrap}
+.stamp.long{font-size:11cqw}
 .stamp[data-t]{transform:translate(-50%,-50%) rotate(-8deg) scale(1.6)}
 .stamp[data-t].on{transform:translate(-50%,-50%) rotate(-8deg) scale(1);transition:transform .18s ease-in,opacity .1s}
 
@@ -123,7 +128,7 @@ body{display:flex;align-items:center;justify-content:center;overflow:hidden}
   padding:1cqw 2.4cqw;opacity:0;pointer-events:none;transition:opacity .3s;z-index:6;cursor:pointer}
 #again.show{opacity:1;pointer-events:auto}
 #again:focus-visible{outline:.5cqw solid var(--amber);outline-offset:.5cqw}
-@media (prefers-reduced-motion:reduce){[data-t]{transition:none}.tick span,.target.on circle.r{animation:none}.fill,.chart path.l{transition:none}}
+@media (prefers-reduced-motion:reduce){.sc.on,[data-sfx].on{animation:none}[data-t]{transition:none}.tick span,.target.on circle.r{animation:none}.fill,.chart path.l{transition:none}}
 </style>
 
 <div class="stage" id="stage" role="img" aria-label="Animation : {{ARIA}}">
@@ -163,6 +168,7 @@ function $(id){return document.getElementById(id)}
     [].forEach.call(els,function(e){e.dataset.t=String(Math.round(+e.dataset.t*k))})}
 });
 var scenes=[].slice.call(document.querySelectorAll(".sc")).map(function(s){return {el:s,start:+s.dataset.start,dur:+s.dataset.dur}});
+scenes.forEach(function(s){s.el.style.setProperty("--d",(s.dur/1000)+"s")});
 var TOTAL=scenes.reduce(function(m,s){return Math.max(m,s.start+s.dur)},0);
 function absT(el){var sc=el.closest(".sc"),base=sc?+sc.dataset.start:0;
   var own=+el.dataset.t,host=el.parentElement&&el.parentElement.closest("[data-t]");

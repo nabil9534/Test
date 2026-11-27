@@ -1,0 +1,111 @@
+{
+  "title": "Passeport Éco · Japon",
+  "flag": "japon",
+  "key": 2,
+  "ticker": "DETTE PUBLIQUE <em>≈ 200 % DU PIB</em> (FMI, OCT. 2026) · FRANCE <b>119 %</b> (T2 2026) · DETTE NETTE <b>137 %</b> · TAUX BANQUE DU JAPON <b>1,25 %</b> · TAUX NÉGATIFS <em>2016 → 2024</em> ·",
+  "scenes": [
+    {
+      "type": "stamp",
+      "num": 4,
+      "country": "JAPON",
+      "date": "27.11.2026",
+      "hook": "Il doit <em>deux fois</em> ce qu'il produit en un an.",
+      "tag": "intrigued",
+      "vo": "Ce pays doit deux fois ce qu'il produit en un an. Et pourtant, personne ne panique.",
+      "minDur": 4200
+    },
+    {
+      "type": "count",
+      "kick": "LE CHIFFRE",
+      "to": 200,
+      "prefix": "≈ ",
+      "suffix": " %",
+      "countDur": 1500,
+      "unit": "DETTE PUBLIQUE / PIB · FMI, OCT. 2026",
+      "hook": "Le pays riche <s>le plus endetté</s> du monde.",
+      "tag": "excited",
+      "vo": "Bienvenue au Japon : une dette d'environ 200 % de son PIB. Le record du monde riche."
+    },
+    {
+      "type": "bars",
+      "kick": "COMPARAISON",
+      "h": "La France ? <em>Petite joueuse</em>",
+      "rows": [
+        {
+          "label": "JAPON · 2026",
+          "value": "≈ 200 %",
+          "w": 100,
+          "hot": true
+        },
+        {
+          "label": "FRANCE · T2 2026",
+          "value": "119 %",
+          "w": 60,
+          "amber": true
+        }
+      ],
+      "big": "× 1,7",
+      "bigSmall": "la dette française, en proportion",
+      "capAt": 3600,
+      "cap": "Et on trouve déjà que la France est <b>très endettée</b>.",
+      "vo": "En France, on s'inquiète d'une dette à 119 %. Le Japon, c'est presque deux fois plus."
+    },
+    {
+      "type": "big",
+      "visual": "grid",
+      "lit": 90,
+      "kick": "LE SECRET",
+      "h": "Se devoir <em>à soi-même</em>",
+      "mid": "≈ 90 %",
+      "midSmall": "DE LA DETTE DÉTENUE PAR DES JAPONAIS",
+      "capAt": 3300,
+      "cap": "Banques, assurances, retraites… et la <b>Banque du Japon</b>, qui en détient environ la moitié.",
+      "tag": "mischievously",
+      "vo": "Le secret ? Le Japon se doit de l'argent à lui-même : 90 % de sa dette est détenue par des Japonais."
+    },
+    {
+      "type": "line",
+      "dir": "down",
+      "kick": "1999 → 2024",
+      "h": "Emprunter pour <em>rien</em>",
+      "who": "TAUX DE LA BANQUE DU JAPON<br>NÉGATIFS DE 2016 À 2024",
+      "big": "≤ 0 %",
+      "color": "amber",
+      "cap": "Pendant 25 ans, l'argent ne coûtait presque rien. La dette pouvait grossir <b>sans douleur</b>.",
+      "vo": "Pendant 25 ans, les taux sont restés à zéro, et même négatifs. Emprunter ne coûtait presque rien."
+    },
+    {
+      "type": "line",
+      "dir": "up",
+      "kick": "2024 → 2026",
+      "h": "Mais les taux <s>remontent</s>",
+      "who": "TAUX DIRECTEUR<br>OCTOBRE 2026",
+      "big": "1,25 %",
+      "color": "red",
+      "cap": "Chaque hausse alourdit la facture des intérêts. <b>C'est LE risque</b> à surveiller.",
+      "tag": "dramatically",
+      "vo": "Mais depuis 2024, les taux remontent. Et avec une dette pareille, chaque hausse fait gonfler la facture."
+    },
+    {
+      "type": "myth",
+      "kick": "IDÉE REÇUE",
+      "myth": "« Le Japon va faire faillite demain. »",
+      "stamp": "PAS SI VITE",
+      "stampAt": 1300,
+      "cap": "Il emprunte dans <b>sa propre monnaie</b>, à ses propres épargnants. Mais sa population vieillit, et la marge se réduit.",
+      "capAt": 2400,
+      "vo": "Alors, faillite demain ? Pas si vite. Il emprunte dans sa propre monnaie, à ses propres épargnants. Mais sa population vieillit."
+    },
+    {
+      "type": "end",
+      "kick": "EN RÉSUMÉ",
+      "end": "Une dette géante…<br><em>mais gardée en famille.</em>",
+      "next": "CORÉE DU SUD",
+      "nextHint": "Plus pauvre que le Ghana en 1960. Et aujourd'hui ?",
+      "nextAt": 2300,
+      "src": "Sources : FMI, World Economic Outlook (oct. 2026) et Article IV 2026 · Insee (dette T2 2026) · Banque du Japon (taux, oct. 2026)",
+      "tag": "warmly",
+      "vo": "Une dette géante, mais gardée en famille. Prochaine escale : plus pauvre que le Ghana en 1960… et aujourd'hui géant de la tech. Abonne-toi !"
+    }
+  ]
+}

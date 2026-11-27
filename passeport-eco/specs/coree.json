@@ -1,0 +1,136 @@
+{
+  "title": "Passeport Éco · Corée du Sud",
+  "flag": "coree",
+  "key": 4,
+  "ticker": "PIB/HAB. 1960 <em>≈ 158 $</em> · EXPORTATIONS 2025 <b>709,7 Md$</b> · PUCES <b>173,4 Md$</b> · 10 ENTREPRISES <b>≈ 40 % DES EXPORTS</b> · FÉCONDITÉ 2025 <em>0,80</em> · SÉOUL <em>0,63</em> ·",
+  "scenes": [
+    {
+      "type": "stamp",
+      "num": 5,
+      "country": "CORÉE DU SUD",
+      "date": "27.11.2026",
+      "hook": "En 1960, ce pays était <em>plus pauvre que le Ghana</em>.",
+      "tag": "intrigued",
+      "vo": "En 1960, ce pays était plus pauvre que le Ghana. Aujourd'hui, il est sûrement dans ta poche.",
+      "minDur": 4600
+    },
+    {
+      "type": "count",
+      "kick": "LE CHIFFRE",
+      "to": 158,
+      "prefix": "≈ ",
+      "suffix": " $",
+      "countDur": 1400,
+      "unit": "PIB PAR HABITANT EN 1960 · DOLLARS DE L'ÉPOQUE",
+      "hook": "Un des pays les plus pauvres <s>du monde</s>.",
+      "vo": "158 dollars par habitant. Un des pays les plus pauvres de la planète."
+    },
+    {
+      "type": "timeline",
+      "kick": "LE MIRACLE DU FLEUVE HAN",
+      "items": [
+        {
+          "y": "1953",
+          "t": "Fin de la guerre de Corée : <b>un pays en ruines</b>, coupé en deux."
+        },
+        {
+          "y": "ANNÉES 60",
+          "t": "L'État mise tout sur l'export et pousse des géants : <b>Samsung, Hyundai, LG</b>."
+        },
+        {
+          "y": "AUJOURD'HUI",
+          "t": "Puces, voitures, navires, écrans… et la <b>K-pop</b> en vitrine."
+        }
+      ],
+      "cap": "En une seule vie, le pays passe des rizières aux <b>puces électroniques</b>.",
+      "capAt": 5200,
+      "tag": "dramatically",
+      "vo": "1953 : la guerre laisse le pays en ruines. Alors l'État mise tout sur l'export, et pousse des géants : Samsung, Hyundai, LG.",
+      "minDur": 7600
+    },
+    {
+      "type": "bars",
+      "kick": "EXPORTATIONS 2025",
+      "h": "Le pays des <em>puces</em>",
+      "rows": [
+        {
+          "label": "TOUTES LES EXPORTATIONS",
+          "value": "709,7 Md$",
+          "w": 100,
+          "amber": true
+        },
+        {
+          "label": "DONT SEMI-CONDUCTEURS",
+          "value": "173,4 Md$",
+          "w": 24,
+          "hot": true
+        }
+      ],
+      "big": "1 sur 4",
+      "bigColor": "amber",
+      "bigSmall": "dollar exporté vient des puces",
+      "capAt": 3600,
+      "cap": "Ton téléphone, ton PC, les serveurs de l'IA : <b>il y a du coréen dedans</b>.",
+      "tag": "excited",
+      "vo": "Record en 2025 : plus de 700 milliards de dollars d'exportations. Et un dollar sur quatre vient des puces électroniques."
+    },
+    {
+      "type": "big",
+      "visual": "grid",
+      "lit": 40,
+      "kick": "LES CHAEBOLS",
+      "h": "Une économie de <em>géants</em>",
+      "mid": "≈ 40 %",
+      "midSmall": "DES EXPORTATIONS 2025 FAITES PAR SEULEMENT 10 ENTREPRISES",
+      "capAt": 3300,
+      "cap": "Une force… et une <b>fragilité</b> : si un géant tousse, tout le pays s'enrhume.",
+      "vo": "Mais seulement dix entreprises font presque 40 % des exportations. Si un géant tousse, tout le pays s'enrhume."
+    },
+    {
+      "type": "bars",
+      "kick": "LA BOMBE À RETARDEMENT",
+      "h": "Presque <s>plus de bébés</s>",
+      "rows": [
+        {
+          "label": "POUR QUE LA POPULATION SE MAINTIENNE",
+          "value": "2,1",
+          "w": 100,
+          "amber": true
+        },
+        {
+          "label": "CORÉE DU SUD · 2025",
+          "value": "0,80",
+          "w": 38,
+          "hot": true
+        }
+      ],
+      "big": "0,80",
+      "bigSmall": "enfant par femme · Séoul : 0,63",
+      "capAt": 3600,
+      "cap": "Un des taux les plus bas du monde. <b>Qui va payer les retraites ?</b>",
+      "tag": "dramatically",
+      "vo": "Le vrai danger : 0,8 enfant par femme. Un des taux les plus bas du monde. Qui paiera les retraites ?"
+    },
+    {
+      "type": "myth",
+      "kick": "IDÉE REÇUE",
+      "myth": "« La Corée est riche grâce à la K-pop. »",
+      "stampAt": 1500,
+      "cap": "La K-pop, c'est la vitrine. Le moteur, ce sont <b>les puces, les voitures et les navires</b>.",
+      "capAt": 2500,
+      "tag": "mischievously",
+      "vo": "Et non, ce n'est pas grâce à la K-pop. Le vrai moteur : les puces, les voitures, les navires."
+    },
+    {
+      "type": "end",
+      "kick": "EN RÉSUMÉ",
+      "end": "Des ruines à la tech.<br><em>Mais qui va en hériter ?</em>",
+      "next": "SUISSE",
+      "nextHint": "Ni mer, ni pétrole, ni mines… et pourtant.",
+      "nextAt": 2300,
+      "src": "Sources : Banque mondiale (PIB/hab. 1960) · ministère coréen du Commerce (exportations 2025) · Statistics Korea (fécondité 2025)",
+      "tag": "warmly",
+      "vo": "Des ruines à la tech, en une seule vie. Prochaine escale : sans mer, sans pétrole, sans mines… et pourtant ultra-riche. Abonne-toi !"
+    }
+  ]
+}

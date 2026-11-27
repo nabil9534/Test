@@ -11,7 +11,8 @@
       "hook": "Chaque habitant est assis sur <em>une fortune</em>.",
       "vo": "Chaque Norvégien est assis sur une fortune… à laquelle il n'a pas le droit de toucher.",
       "minDur": 3800,
-      "dur": 5140
+      "dur": 5140,
+      "num": 1
     },
     {
       "type": "count",

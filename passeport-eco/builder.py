@@ -14,6 +14,8 @@ FLAGS = {
     "norvege": '<svg viewBox="0 0 22 16"><rect width="22" height="16" fill="#ba0c2f"/><rect x="6" width="4" height="16" fill="#fff"/><rect y="6" width="22" height="4" fill="#fff"/><rect x="7" width="2" height="16" fill="#00205b"/><rect y="7" width="22" height="2" fill="#00205b"/></svg>',
     "argentine": '<svg viewBox="0 0 18 12"><rect width="18" height="12" fill="#74acdf"/><rect y="4" width="18" height="4" fill="#fff"/><circle cx="9" cy="6" r="1.4" fill="#f6b40e"/></svg>',
     "dubai": '<svg viewBox="0 0 24 12"><rect width="24" height="4" fill="#00732f"/><rect y="4" width="24" height="4" fill="#fff"/><rect y="8" width="24" height="4" fill="#000"/><rect width="6" height="12" fill="#c8102e"/></svg>',
+    "coree": '<svg viewBox="0 0 18 12"><rect width="18" height="12" fill="#fff"/><g transform="rotate(-33.7 9 6)"><circle cx="9" cy="6" r="3" fill="#003478"/><path d="M6 6a3 3 0 0 1 6 0a1.5 1.5 0 0 1-3 0a1.5 1.5 0 0 0-3 0z" fill="#cd2e3a"/></g><g fill="#000"><g transform="rotate(-33.7 3.2 2.6)"><rect x="2" y="1.7" width="2.4" height=".4"/><rect x="2" y="2.4" width="2.4" height=".4"/><rect x="2" y="3.1" width="2.4" height=".4"/></g><g transform="rotate(33.7 14.8 2.6)"><rect x="13.6" y="1.7" width="2.4" height=".4"/><rect x="13.6" y="2.4" width="2.4" height=".4"/><rect x="13.6" y="3.1" width="2.4" height=".4"/></g><g transform="rotate(33.7 3.2 9.4)"><rect x="2" y="8.5" width="2.4" height=".4"/><rect x="2" y="9.2" width="2.4" height=".4"/><rect x="2" y="9.9" width="2.4" height=".4"/></g><g transform="rotate(-33.7 14.8 9.4)"><rect x="13.6" y="8.5" width="2.4" height=".4"/><rect x="13.6" y="9.2" width="2.4" height=".4"/><rect x="13.6" y="9.9" width="2.4" height=".4"/></g></g></svg>',
+    "suisse": '<svg viewBox="0 0 16 16"><rect width="16" height="16" fill="#da291c"/><rect x="6.5" y="3" width="3" height="10" fill="#fff"/><rect x="3" y="6.5" width="10" height="3" fill="#fff"/></svg>',
     "japon": '<svg viewBox="0 0 18 12"><rect width="18" height="12" fill="#fff"/><circle cx="9" cy="6" r="3.6" fill="#bc002d"/></svg>',
 }
 
@@ -27,7 +29,7 @@ def scene_html(sc, flag):
     if k: out.append(f'<div class="kick" data-t="0">{k}</div>')
     if t == "stamp":
         out.append(f'''<div class="pstamp" data-t="150" data-sfx="stamp"><div class="pflag">{flag}</div>
-          <div class="pname">{sc["country"]}</div><div class="pmeta">ENTRÉE · {sc["date"]}</div></div>''')
+          <div class="pname{" long" if len(sc["country"]) > 9 else ""}">{sc["country"]}</div><div class="pmeta">{("ESCALE N°" + str(sc["num"])) if sc.get("num") else "ENTRÉE"} · {sc["date"]}</div></div>''')
         out.append(f'<div class="hook big" data-t="1100">{sc["hook"]}</div>')
     elif t == "count":
         dec = sc.get("dec", 0)
@@ -65,7 +67,8 @@ def scene_html(sc, flag):
         out.append('</div>')
     elif t == "myth":
         out.append(f'<div class="myth" data-t="100">{sc["myth"]}</div>')
-        out.append(f'<div class="stamp" data-t="{sc.get("stampAt",1700)}" data-sfx="faux">{sc.get("stamp","FAUX")}</div>')
+        stxt = sc.get("stamp","FAUX")
+        out.append(f'<div class="stamp{" long" if len(stxt) > 6 else ""}" data-t="{sc.get("stampAt",1700)}" data-sfx="faux">{stxt}</div>')
     elif t == "end":
         out.append(f'<div class="end" data-t="200" data-sfx="final">{sc["end"]}</div>')
         out.append(f'<div class="next" data-t="{sc.get("nextAt",2600)}" data-sfx="next"><span>PROCHAINE ESCALE</span><b>{sc["next"]}</b><i>{sc.get("nextHint","")}</i></div>')
@@ -101,6 +104,12 @@ def build(spec_path):
         lines.append("")
     vdir = pathlib.Path(spec_path).parent.parent / "scripts-voix"; vdir.mkdir(exist_ok=True)
     (vdir / f"{slug}.md").write_text("\n".join(lines), encoding="utf-8")
+    el = []
+    for sc in spec["scenes"]:
+        say = sc.get("say", sc["vo"])
+        el.append((f'[{sc["tag"]}] ' if sc.get("tag") else "") + say)
+    edir = vdir / "elevenlabs"; edir.mkdir(exist_ok=True)
+    (edir / f"{slug}.txt").write_text(" [long pause]\n".join(el) + "\n", encoding="utf-8")
     print(slug, f"{start/1000:.1f}s", [round(d/1000,1) for _, d, _ in timing])
 
 if __name__ == "__main__":

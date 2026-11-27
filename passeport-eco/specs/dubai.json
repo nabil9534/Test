@@ -11,7 +11,8 @@
       "hook": "Tu penses qu'elle est riche <em>grâce au pétrole</em> ?",
       "vo": "Tout le monde pense que Dubaï est riche grâce au pétrole. Grosse erreur.",
       "minDur": 3800,
-      "dur": 4080
+      "dur": 4080,
+      "num": 3
     },
     {
       "type": "count",

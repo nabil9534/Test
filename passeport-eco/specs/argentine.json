@@ -11,7 +11,8 @@
       "hook": "Il y a un siècle, ce pays était <em>plus riche que la France</em>.",
       "vo": "Il y a un siècle, ce pays était plus riche que la France. Aujourd'hui, il collectionne les faillites.",
       "minDur": 4200,
-      "dur": 7100
+      "dur": 7100,
+      "num": 2
     },
     {
       "type": "count",
