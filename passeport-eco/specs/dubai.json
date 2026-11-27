@@ -1,0 +1,112 @@
+{
+  "title": "Passeport Éco · Dubaï",
+  "flag": "dubai",
+  "key": 5,
+  "ticker": "PÉTROLE ET MINES <b>≈ 1 % DU PIB</b> (T2 2025) · AÉROPORT DXB <b>95,2 M PASSAGERS</b> (2025) · TOURISTES <b>19,59 M</b> · HABITANTS <b>4,58 M</b> · CRISE 2009 <em>26 Md$ DE DETTE</em> · BURJ KHALIFA <b>828 M</b> ·",
+  "scenes": [
+    {
+      "type": "stamp",
+      "country": "DUBAÏ",
+      "date": "20.11.2026",
+      "hook": "Tu penses qu'elle est riche <em>grâce au pétrole</em> ?",
+      "vo": "Tout le monde pense que Dubaï est riche grâce au pétrole. Grosse erreur.",
+      "minDur": 3800
+    },
+    {
+      "type": "count",
+      "kick": "LE CHIFFRE",
+      "to": 1,
+      "prefix": "≈ ",
+      "suffix": " %",
+      "countDur": 1200,
+      "unit": "LA PART DU PÉTROLE ET DES MINES DANS SON ÉCONOMIE",
+      "hook": "Presque <s>rien</s>.",
+      "vo": "Le pétrole et les mines : à peine 1 % de son économie. Alors d'où vient l'argent ?"
+    },
+    {
+      "type": "line",
+      "kick": "1966 · GOLFE PERSIQUE",
+      "h": "Peu de pétrole, <em>beaucoup d'ambition</em>",
+      "who": "PORT · AÉROPORT<br>ZONES FRANCHES",
+      "big": "COMMERCE",
+      "color": "amber",
+      "cap": "Dubaï trouve bien moins de pétrole qu'Abou Dabi. Alors elle mise tout sur <b>le commerce</b>.",
+      "vo": "En 1966, Dubaï trouve un peu de pétrole, bien moins qu'Abou Dabi. Alors elle fait un pari : devenir le carrefour du monde."
+    },
+    {
+      "type": "big",
+      "kick": "LA GARE DU MONDE",
+      "h": "Un aéroport <em>record</em>",
+      "mid": "95,2 M",
+      "midSmall": "DE PASSAGERS À DUBAÏ EN 2025 · N°1 MONDIAL À L'INTERNATIONAL",
+      "cap": "Aucun aéroport au monde n'accueille autant de voyageurs internationaux.",
+      "capAt": 3200,
+      "vo": "Résultat : 95 millions de passagers en 2025. Aucun aéroport n'accueille autant de voyageurs internationaux."
+    },
+    {
+      "type": "bars",
+      "kick": "LE TOURISME",
+      "h": "Plus de touristes <em>qu'il n'y a d'habitants</em>",
+      "rows": [
+        {
+          "label": "TOURISTES ÉTRANGERS 2025",
+          "value": "19,59 M",
+          "w": 100,
+          "amber": true
+        },
+        {
+          "label": "HABITANTS FIN 2025",
+          "value": "4,58 M",
+          "w": 23
+        }
+      ],
+      "big": "× 4",
+      "bigColor": "amber",
+      "bigSmall": "plus de 4 touristes par habitant",
+      "capAt": 3600,
+      "cap": "Hôtels, centres commerciaux, immobilier : <b>le vrai moteur</b>.",
+      "vo": "Et près de 20 millions de touristes par an : plus de quatre fois sa population."
+    },
+    {
+      "type": "timeline",
+      "kick": "LE JOUR OÙ TOUT A FAILLI CRAQUER",
+      "items": [
+        {
+          "y": "NOV. 2009",
+          "t": "Crise : le géant public Dubai World demande un délai sur <b>26 Md$</b> de dettes."
+        },
+        {
+          "y": "DÉC. 2009",
+          "t": "Abou Dabi, la voisine riche en pétrole, vient <b>à la rescousse</b>."
+        },
+        {
+          "y": "JANV. 2010",
+          "t": "La « Burj Dubaï » est inaugurée… sous le nom de <b>Burj Khalifa</b>, le dirigeant d'Abou Dabi."
+        }
+      ],
+      "cap": "La plus haute tour du monde porte le nom de son sauveur.",
+      "capAt": 4300,
+      "vo": "Mais en 2009, la bulle éclate. C'est Abou Dabi qui la sauve. Et la plus haute tour du monde prend le nom de son sauveur : Burj Khalifa.",
+      "minDur": 7600
+    },
+    {
+      "type": "myth",
+      "kick": "IDÉE REÇUE",
+      "myth": "« Dubaï, c'est un pays. »",
+      "stampAt": 1200,
+      "cap": "C'est l'un des <b>7 émirats</b> des Émirats arabes unis. La capitale du pays, c'est <b>Abou Dabi</b>.",
+      "capAt": 2200,
+      "vo": "Et non, Dubaï n'est pas un pays : c'est un des sept émirats des Émirats arabes unis."
+    },
+    {
+      "type": "end",
+      "kick": "EN RÉSUMÉ",
+      "end": "Pas une ville pétrolière.<br><em>Une ville carrefour.</em>",
+      "next": "JAPON",
+      "nextHint": "Le pays riche le plus endetté du monde.",
+      "nextAt": 2400,
+      "src": "Sources : Dubai Statistics Center (PIB T2 2025) · Dubai Airports (2025) · DET Dubaï (touristes 2025) · Digital Dubai (population) · presse 2009–2010 (Dubai World, Burj Khalifa)",
+      "vo": "Pas une ville pétrolière : une ville carrefour. Prochaine escale : le Japon, le pays riche le plus endetté du monde. Abonne-toi !"
+    }
+  ]
+}

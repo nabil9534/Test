@@ -1,0 +1,100 @@
+{
+  "title": "Passeport Éco · Argentine",
+  "flag": "argentine",
+  "key": 3,
+  "ticker": "INFLATION <em>33,1 %</em> SUR UN AN (OCT. 2026) · PIC <em>211 %</em> (DÉC. 2023) · ZÉROS RAYÉS DEPUIS 1970 <b>13</b> · DÉFAUT 2001 <em>≈ 95 Md$</em> · PRÉSIDENTS EN 2 SEMAINES (2001) <b>5</b> · VACA MUERTA <b>GAZ DE SCHISTE</b> ·",
+  "scenes": [
+    {
+      "type": "stamp",
+      "country": "ARGENTINE",
+      "date": "15.11.2026",
+      "hook": "Il y a un siècle, ce pays était <em>plus riche que la France</em>.",
+      "vo": "Il y a un siècle, ce pays était plus riche que la France. Aujourd'hui, il collectionne les faillites.",
+      "minDur": 4200
+    },
+    {
+      "type": "count",
+      "kick": "LE CHIFFRE",
+      "to": 13,
+      "suffix": " zéros",
+      "countDur": 1500,
+      "unit": "RAYÉS DE SA MONNAIE DEPUIS 1970",
+      "hook": "Comment on en arrive là ?",
+      "vo": "Treize zéros. C'est ce qu'il a dû rayer de sa monnaie depuis 1970. Comment on en arrive là ?"
+    },
+    {
+      "type": "timeline",
+      "kick": "LA CHUTE",
+      "items": [
+        {
+          "y": "1913",
+          "t": "Viande, blé, ports : plus riche par habitant que <b>la France ou l'Italie</b>."
+        },
+        {
+          "y": "1970 → 1992",
+          "t": "Quatre changements de monnaie. <b>13 zéros</b> disparaissent."
+        },
+        {
+          "y": "2001",
+          "t": "Faillite sur près de <b>95 Md$</b> de dette. <b>5 présidents</b> en deux semaines."
+        }
+      ],
+      "cap": "Des décennies de dépenses à crédit… payées en imprimant de l'argent.",
+      "capAt": 4300,
+      "vo": "En 1913, sa viande et son blé le rendent plus riche que la France. Puis tout dérape : quatre changements de monnaie, et en 2001, la faillite. Cinq présidents en deux semaines.",
+      "minDur": 7400
+    },
+    {
+      "type": "bars",
+      "kick": "DÉC. 2023",
+      "h": "Les prix <s>triplent</s> en un an",
+      "rows": [
+        {
+          "label": "ARGENTINE, SUR UN AN",
+          "value": "211 %",
+          "w": 100,
+          "hot": true
+        },
+        {
+          "label": "ZONE EURO, PIC DE 2022",
+          "value": "10,6 %",
+          "w": 5
+        }
+      ],
+      "big": "211 %",
+      "bigSmall": "100 € de courses → 311 €",
+      "capAt": 3600,
+      "cap": "Pendant qu'on trouvait l'inflation <b>insupportable</b> en Europe.",
+      "vo": "Fin 2023, les prix ont triplé en un an. Tes courses à 100 euros en coûtent 311."
+    },
+    {
+      "type": "big",
+      "kick": "LA TRONÇONNEUSE",
+      "h": "Javier <em>Milei</em> coupe tout",
+      "mid": "33,1 %",
+      "midSmall": "INFLATION SUR UN AN · OCT. 2026 (INDEC)",
+      "cap": "Ministères supprimés, dépenses taillées. L'inflation chute… mais reste <b>près de dix fois</b> celle de la France.",
+      "capAt": 3200,
+      "vo": "Arrive Javier Milei et sa tronçonneuse. L'inflation tombe à 33 %… mais c'est encore presque dix fois la France."
+    },
+    {
+      "type": "myth",
+      "kick": "IDÉE REÇUE",
+      "myth": "« L'Argentine est un pays pauvre. »",
+      "stampAt": 1300,
+      "cap": "Elle a <b>Vaca Muerta</b>, un des plus gros gisements de gaz de schiste au monde, et énormément de <b>lithium</b>. Le problème, c'est la gestion.",
+      "capAt": 2300,
+      "vo": "Pourtant, l'Argentine n'est pas pauvre : gaz de schiste, lithium… Son vrai problème, c'est la gestion."
+    },
+    {
+      "type": "end",
+      "kick": "EN RÉSUMÉ",
+      "end": "Un pays riche…<br><em>qui n'arrête pas de se ruiner.</em>",
+      "next": "DUBAÏ",
+      "nextHint": "Riche grâce au pétrole ? Presque pas.",
+      "nextAt": 2400,
+      "src": "Sources : INDEC (inflation oct. 2026, déc. 2023) · Eurostat (zone euro oct. 2022) · Maddison / della Paolera & Taylor (PIB 1913) · EIA (Vaca Muerta)",
+      "vo": "Un pays riche qui n'arrête pas de se ruiner. Prochaine escale : Dubaï. Riche grâce au pétrole ? Abonne-toi, la réponse va te surprendre."
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "title": "Passeport Éco · Norvège",
+  "flag": "norvege",
+  "key": 0,
+  "ticker": "FONDS SOUVERAIN <b>22 014 Md NOK</b> · PAR HABITANT <b>≈ 3,9 M NOK</b> · SOIT <b>≈ 370 000 €</b> · ACTIONS MONDIALES DÉTENUES <b>≈ 1,5 %</b> · DÉCOUVERTE EKOFISK <b>1969</b> · DÉPENSE MAX. <b>≈ 3 %/AN</b> · HABITANTS <b>5,6 M</b> ·",
+  "scenes": [
+    {
+      "type": "stamp",
+      "country": "NORVÈGE",
+      "date": "30.09.2026",
+      "hook": "Chaque habitant est assis sur <em>une fortune</em>.",
+      "vo": "Chaque Norvégien est assis sur une fortune… à laquelle il n'a pas le droit de toucher.",
+      "minDur": 3800
+    },
+    {
+      "type": "count",
+      "kick": "LE CHIFFRE",
+      "to": 370000,
+      "suffix": " €",
+      "countDur": 1700,
+      "unit": "PAR HABITANT, SI ON PARTAGEAIT LE FONDS",
+      "hook": "Et personne ne peut le dépenser.",
+      "vo": "370 000 euros par habitant. Mais d'où vient cet argent ?"
+    },
+    {
+      "type": "line",
+      "kick": "23 DÉC. 1969 · MER DU NORD",
+      "h": "Le cadeau de <em>Noël</em>",
+      "who": "CHAMP D'EKOFISK<br>DÉCOUVERT PAR PHILLIPS",
+      "big": "PÉTROLE",
+      "color": "amber",
+      "cap": "Après des années de forages décevants, un des plus grands gisements de la mer du Nord.",
+      "vo": "1969. Les pétroliers veulent abandonner la mer du Nord. Juste avant Noël, un dernier forage touche le jackpot."
+    },
+    {
+      "type": "big",
+      "kick": "LE CHOIX QUI CHANGE TOUT",
+      "h": "Ne pas tout <em>dépenser</em>",
+      "mid": "22 014 Md",
+      "midSmall": "DE COURONNES DANS LE FONDS SOUVERAIN · 30 SEPT. 2026",
+      "cap": "Au lieu de flamber l'argent du pétrole, la Norvège le place. Premier versement : <b>1996</b>.",
+      "vo": "Au lieu de tout dépenser, la Norvège place l'argent du pétrole dans un fonds. Aujourd'hui : 22 000 milliards de couronnes."
+    },
+    {
+      "type": "big",
+      "visual": "grid",
+      "lit": 2,
+      "kick": "LE MONDE EN PORTEFEUILLE",
+      "h": "Un bout de <em>chaque</em> entreprise",
+      "mid": "≈ 1,5 %",
+      "midSmall": "DE TOUTES LES ACTIONS COTÉES DE LA PLANÈTE",
+      "capAt": 3200,
+      "cap": "Apple, Nestlé, LVMH… le fonds en possède un morceau.",
+      "vo": "Ce fonds possède 1,5 % de toutes les actions cotées du monde. Un bout d'Apple, de Nestlé, de LVMH…"
+    },
+    {
+      "type": "bars",
+      "kick": "LA RÈGLE D'OR",
+      "h": "Seulement <em>3 %</em> par an",
+      "rows": [
+        {
+          "label": "LE FONDS",
+          "value": "100 %",
+          "w": 100,
+          "amber": true
+        },
+        {
+          "label": "CE QUE L'ÉTAT PEUT UTILISER / AN",
+          "value": "≈ 3 %",
+          "w": 3,
+          "hot": true
+        }
+      ],
+      "big": "97 %",
+      "bigColor": "amber",
+      "bigSmall": "restent pour plus tard",
+      "capAt": 3600,
+      "cap": "Le reste est gardé pour <b>les générations futures</b>.",
+      "vo": "Mais l'État ne peut utiliser qu'environ 3 % par an. Le reste, c'est pour les générations futures."
+    },
+    {
+      "type": "myth",
+      "kick": "IDÉE REÇUE",
+      "myth": "« Chaque Norvégien a 370 000 € sur son compte. »",
+      "stampAt": 1500,
+      "cap": "C'est une division, pas un chèque. Le fonds aide à payer <b>écoles, hôpitaux et routes</b>, sans vider le coffre.",
+      "capAt": 2500,
+      "vo": "Donc non, personne n'a reçu de chèque. Le fonds aide à payer écoles et hôpitaux, sans vider le coffre."
+    },
+    {
+      "type": "end",
+      "kick": "EN RÉSUMÉ",
+      "end": "Ils ont trouvé du pétrole.<br><em>Ils ont surtout su attendre.</em>",
+      "next": "ARGENTINE",
+      "nextHint": "Le pays qui a rayé 13 zéros de sa monnaie.",
+      "nextAt": 2400,
+      "src": "Sources : NBIM (valeur au 30/09/2026, ≈ 1,5 % des actions cotées) · SSB (population) · taux EUR/NOK ≈ 10,58 (nov. 2026) · ministère des Finances norvégien (règle budgétaire)",
+      "vo": "Ils ont trouvé du pétrole… mais surtout, ils ont su attendre. Prochaine escale : le pays qui a rayé 13 zéros de sa monnaie. Abonne-toi !"
+    }
+  ]
+}
